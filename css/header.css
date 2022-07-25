@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+}
+
+.check_delivery {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  background: #0126DE;
+  position: absolute;
+  height: 77px;
+  left: 0%;
+  right: 0%;
+  top: 0px;  
+}
+
+.input {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+height: 45px;
+left: 0.12%;
+right: 39.78%;
+top: 0px;
+background: rgba(255, 255, 255, 0.25);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+}
+
+.login_btn {
+box-sizing: border-box;
+
+height: 45px;
+width: 92px;
+left: 0.12%;
+right: 39.78%;
+top: 0px;
+background: rgba(255, 255, 255, 0.25);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+}
+
+.header_text{
+position: absolute;
+width: 727px;
+height: 22px;
+left: calc(50% - 727px/2 - 128.5px);
+top: calc(50% - 22px/2 - 0.44px);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 156% */
+
+
+color: #FFFFFF;
+
+}
+
+small {
+  widows: 100%;
+  display: block;
+  text-align: center;
+}
