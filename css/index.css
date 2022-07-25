@@ -2,4 +2,6 @@
 @import url(history.css);
 @import url(last_carousel.css);
 @import url(header.css); 
-/* @import url(header); */
+@import url(header.css);
+@import url(first_section.css); 
+
