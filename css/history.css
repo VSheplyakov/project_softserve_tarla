@@ -1,0 +1,22 @@
+.history__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 48px;
+  justify-items: center;
+}
+.history__wrapper-one {
+  display: block;
+}
+
+.history__wrapper-two {
+  display: block;
+}
+
+.history__wrapper-three {
+  display: block;
+}
+
+.history__wrapper-four {
+  display: block;
+}
