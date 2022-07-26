@@ -1,3 +1,6 @@
+.history {
+  background-color: #F5EDE7;
+}
 .history__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
