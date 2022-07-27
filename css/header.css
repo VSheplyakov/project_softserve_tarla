@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  background: #F5EDE7;
+  
 }
 
 .check_delivery {
