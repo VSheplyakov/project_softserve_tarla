@@ -2,8 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: #F5EDE7;
-  
+  background: #f5ede7;
 }
 
 .check_delivery {
@@ -107,7 +106,6 @@ small {
   padding: 5px;
   display: flex;
   text-align: center;
-  
 }
 
 .icons {
