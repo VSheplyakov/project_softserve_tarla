@@ -1,5 +1,5 @@
 .about {
-  background-color: #F5EDE7;
+  background-color: #f5ede7;
 }
 .about__main-img {
   display: flex;
@@ -15,7 +15,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  
 }
 
 .about__block-items {
@@ -46,5 +45,4 @@
   line-height: 28px;
   text-align: center;
   color: #000000;
-
 }
