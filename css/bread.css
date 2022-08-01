@@ -1,4 +1,24 @@
 .bread-btn {
   color: #0126DE;
   border: 1px solid #0126DE;
+  margin-top: 25px;
+}
+.bread__block{
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0;
+}
+.bread__text{
+  display: flex;
+  flex-direction: column;
+}
+.bread__text-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  color: #000000;
 }
