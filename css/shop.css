@@ -1,4 +1,43 @@
+.shop{
+  background-color: #F5EDE7;
+  margin-bottom: 65px;
+  padding: 70px 0;
+}
 .shop_btn{
   color: #0126DE;
   border: 1px solid #0126DE;
+}
+.shop-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+}
+.shop__block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 24px;
+}
+.item_name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.kit{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
 }
