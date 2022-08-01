@@ -14,7 +14,11 @@ text-align: center;
 .small_icon_list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
+  
 }
 
 .hiw_list_item{
@@ -22,7 +26,7 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  max-width: 333px;
 }
 
 .hiw_subtitle{

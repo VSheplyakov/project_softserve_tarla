@@ -1,21 +1,34 @@
-.pasty_kits {
+.pasty {
   background-color: #ffc3a0;
+  padding: 25px 0;
+}
+.pasty_kits {
   display: flex;
   flex-direction: row;
-}
-h1 {
-  font-size: 78px;
-  font-family: "Roboto";
-  font-style: normal;
-  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+.first_column {
+  display: flex;
+  flex-direction: column;
+  max-width: 445px;
+}
+.pasty__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 90px;
+  color: #000000;
 }
 
-p {
+.pasty__text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
-  font-family: "DM Sans";
-  display: flex;
-  justify-content: center;
+  line-height: 28px;
+  color: #000000;
 }
 
 .sub_pasty {
@@ -23,4 +36,11 @@ p {
   display: flex;
   flex-direction: column;
   padding: 30px 18px 24px 18px;
+}
+.carousel {
+  display: flex;
+  max-width: 890px;
+}
+.carouselImg {
+  width: 100%;
 }

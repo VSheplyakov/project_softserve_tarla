@@ -5,14 +5,23 @@
 }
 .bread__block{
   display: flex;
+  flex-wrap: wrap;
   gap: 45px;
   justify-content: center;
   align-items: center;
   margin: 70px 0;
 }
+.bread_image{
+  display: flex;
+  
+}
+.bread_img{
+  width: 100%;
+}
 .bread__text{
   display: flex;
   flex-direction: column;
+  max-width: 650px;
 }
 .bread__text-title{
   font-family: 'Roboto';
