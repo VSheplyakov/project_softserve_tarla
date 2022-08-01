@@ -34,3 +34,17 @@ a {
 img {
   display: block;
 }
+
+.btn {
+  display: flex;
+  width: 157px;
+  height: 60px;
+  background-color: var(--button-color);
+  font-size: 12px;
+  color: var(--button-a-color);
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
