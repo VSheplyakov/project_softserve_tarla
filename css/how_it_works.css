@@ -7,3 +7,8 @@ letter-spacing: 0em;
 text-align: center;
 
 }
+
+.small_icon_list {
+  display:
+  flex-direction: row;
+}

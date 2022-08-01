@@ -1,5 +1,28 @@
+.last__carousel{
+border-top: 1px solid #000000;
+}
 .last__carousel-images {
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.last__carousel-img {
+  border-radius: 20px;
+}
+
+.last__carousel-title{
+  margin-top: 65px;
+}
+.last__carousel-title-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
 }
