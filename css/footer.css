@@ -15,7 +15,7 @@
   color: #000000;
   padding-bottom: 25px;
 }
-.footer__navbar-list{
+.footer__navbar-list {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
@@ -23,6 +23,10 @@
   line-height: 24px;
   text-transform: uppercase;
   color: #000000;
+  
+}
+.footer__navbar-link{
+color: #000000;
 }
 .footer__copyright{
   padding-left: 50px;

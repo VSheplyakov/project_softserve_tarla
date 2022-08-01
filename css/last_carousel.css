@@ -5,12 +5,14 @@ border-top: 1px solid #000000;
   margin-top: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
   
 }
-/* .last__carousel-img {
-  
-} */
+.last__carousel-img {
+  border-radius: 20px;
+}
 
 .last__carousel-title{
   margin-top: 65px;
