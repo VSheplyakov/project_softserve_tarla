@@ -107,6 +107,15 @@ small {
   padding: 5px;
   display: flex;
   text-align: center;
+  /* justify-content: end; */
+  align-items: flex-end;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .icons {
