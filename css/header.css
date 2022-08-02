@@ -43,13 +43,14 @@ top: 0px; */
   box-sizing: border-box;
   height: 45px;
   width: 92px;
-  /* left: 0.12%;
-right: 39.78%;
-top: 0px; */
   background: white;
   border: 1px solid #ffffff;
-  border-radius: 35px;
   margin: 16px 16px 16px 8px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
 }
 
 .header_text {

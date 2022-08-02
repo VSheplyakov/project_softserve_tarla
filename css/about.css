@@ -3,12 +3,11 @@
 }
 .about__main-img {
   display: flex;
+  justify-content: center;
 }
 .about__main-image {
-  position: relative;
   width: 100%;
 }
-
 .about__block {
   display: flex;
   margin-top: 15px;
@@ -16,10 +15,9 @@
   justify-content: center;
   gap: 15px;
 }
-
 .about__block-items {
   display: block;
-  max-width: 459px;
+  max-width: 415px;
   border: 1px solid #000000;
   border-radius: 20px;
   padding: 25px;

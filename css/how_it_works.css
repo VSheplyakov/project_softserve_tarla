@@ -1,29 +1,56 @@
-.container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+.how_it_works{
+background-color: #F5EDE7;
+padding: 80px 0;
 }
-
-h1 {
+.how_it_works-title {
 font-family: Roboto;
 font-size: 43px;
 font-weight: 400;
 line-height: 60px;
 letter-spacing: 0em;
 text-align: center;
-
 }
 
 .small_icon_list {
-width: 320px;
-display: flex;
-flex-direction: auto;
-gap: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
 }
 
-.list_item {
-  width: 100%;
+.hiw_list_item{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  max-width: 333px;
+}
+
+.hiw_subtitle{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.hiw_text{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.hiw_sub_pasty{
+display: flex;
+justify-content: center;
+padding-top: 40px;
 }

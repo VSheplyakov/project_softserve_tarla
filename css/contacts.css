@@ -1,15 +1,15 @@
-.contacts{
-  background-color: #F5EDE7;
+.contacts {
+  background-color: #f5ede7;
   margin-top: 65px;
   padding-top: 15px;
 }
-.contacts__block{
+.contacts__block {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.contacts__tittle-one{
+.contacts__tittle-one {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -19,7 +19,7 @@
   text-transform: uppercase;
   color: #000000;
 }
-.contacts__tittle-two{
+.contacts__tittle-two {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -28,7 +28,7 @@
   text-align: center;
   color: #000000;
 }
-.contacts__email{
+.contacts__email {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
