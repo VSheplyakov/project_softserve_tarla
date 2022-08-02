@@ -6,10 +6,10 @@
 }
 
 .check_delivery {
-  float: right;
+  /* float: right; */
   display: flex;
   flex-direction: row;
-  background: #0126de;
+  background-color: #0126de;
   /* position: absolute; */
   min-height: 77px;
   /* left: 0%; */
