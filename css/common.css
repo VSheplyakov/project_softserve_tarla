@@ -26,9 +26,9 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+/* a:hover{
   background: hsl(55, 100%, 64%);
-}
+} */
 
 .address,
 .contact {
@@ -57,9 +57,14 @@ img {
   border-radius: 35px;
   border: 1px solid #000000;
 }
-/* .btn:hover{
-  color:blue;
-} */
+.btn:hover{
+  transition: all 0.3s ease;
+  background: hsla(61, 57%, 50%, 0.856);
+  color: #D90DCB;
+  border: 1px solid #D90DCB;
+  /* background: hsla(64, 57%, 50%, 0.863); */
+
+}
 
 /* .container {
   

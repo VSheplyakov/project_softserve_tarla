@@ -28,6 +28,12 @@
   background-image: url("/images/background2.png");
 }
 
+@media(max-width: 1158px){
+  .history__block1,  .history__block2 {
+    background-image: none;
+  }
+} 
+
 .history__content {
   display: flex;
   max-width: 516px;
