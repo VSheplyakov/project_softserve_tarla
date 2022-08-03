@@ -2,20 +2,20 @@
 border-top: 1px solid #000000;
 }
 .last__carousel-images {
-  margin-top: 15px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   
 }
 .last__carousel-img {
   border-radius: 20px;
+  max-width: 270px;
 }
 
 .last__carousel-title{
   margin-top: 65px;
+  padding-bottom: 15px;
 }
 .last__carousel-title-text{
   font-family: 'Roboto';
