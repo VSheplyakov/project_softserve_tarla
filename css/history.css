@@ -2,15 +2,32 @@
   background-color: #f5ede7;
   padding-top: 15px;
   
+  
 }
-.history__block {
+.history__block1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   gap: 48px;
   padding: 24px;
+  background-position: right 0%;
+  background-repeat: no-repeat;
+  background-image: url("/images/background.png");
 }
+
+.history__block2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+  padding: 24px;
+  background-position: left 100%;
+  background-repeat: no-repeat;
+  background-image: url("/images/background2.png");
+}
+
 .history__content {
   display: flex;
   max-width: 516px;

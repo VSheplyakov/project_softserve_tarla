@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap");
 
 @import url(common.css);
 @import url(history.css);
@@ -11,4 +11,3 @@
 @import url(about.css);
 @import url(contacts.css);
 @import url(footer.css);
-@import url(first-carousel.css);
