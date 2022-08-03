@@ -59,7 +59,7 @@ img {
 }
 .btn:hover{
   transition: all 0.3s ease;
-  background: hsla(61, 57%, 50%, 0.856);
+  background: #c6c837da;
   color: #D90DCB;
   border: 1px solid #D90DCB;
   /* background: hsla(64, 57%, 50%, 0.863); */
