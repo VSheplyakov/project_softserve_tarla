@@ -64,7 +64,7 @@ small {
   text-align: center;
 }
 
-.close {
+.closex {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -72,8 +72,8 @@ small {
   margin: 16px;
 }
 
-.close:hover,
-.close:focus {
+.closex:hover,
+.closex:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;

@@ -12,6 +12,7 @@
 <body>
   <!--Liubov start block-->
   <header class="header">
+    <div id="myModal" class="modal">
     <div class="check_delivery">
       <p class="header_text">
         We're focusing on London to start with, please enter your post code
@@ -22,7 +23,8 @@
         <input class="input" type="text" placeholder="Post code" />
         <a href="#" class="login_btn btn">Check</a>
       </div>
-      <span class="close">&times;</span>
+      <span class="closex" onclick="hide()">&times;</span>
+    </div>
     </div>
     <div class="container">
       <div class="main_head">
@@ -305,7 +307,8 @@
   </footer>
   <!--Valeriy end block-->
   <!-- <script src="./js/example.js"></script> -->
-  <script src="js\first-caroucel.js"></script>
+  <script src="js/first-caroucel.js"></script>
+  <script src="js/header-modal.js"></script>
 </body>
 
 </html>
