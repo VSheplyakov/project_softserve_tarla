@@ -79,6 +79,10 @@ small {
   justify-content: center;
 }
 
+a.logl:hover {
+  background-color: #f5ede7;
+}
+
 .navbar {
   width: 100%;
   display: flex;
@@ -99,6 +103,11 @@ small {
   line-height: 13px;
   text-transform: uppercase;
   color: #000000;
+  
+}
+
+a.nav:hover {
+  background-color: #f5ede7;
 }
 
 .icons {
