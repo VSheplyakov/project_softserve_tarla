@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  background: hsl(55, 100%, 64%);
+}
+
 .address,
 .contact {
   font-style: normal;
