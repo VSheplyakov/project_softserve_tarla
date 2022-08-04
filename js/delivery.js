@@ -5,7 +5,7 @@ function delivery(){
   let NORTHLONDON = ["N1", "N3", "N4", "N10", "N12", "N14", "N19", "N20", "NW1", "NW2", "NW3", "NW4", "NW6", "NW7", "NW8", "NW9", "NW10", "NW11"];
   let SOUTHLONDON = ["SE1", "SE3", "SE5", "SE9", "SE10", "SE16", "SE18", "SE19", "SE24", "SW4", "SW8", "SW12", "SW15", "SW16", "SW18", "SW19"];
   let answer;
-  let postCode = document.getElementById("input_d").value;
+  let postCode = document.getElementById("input_d").value.toUpperCase();
   if (CENTRALLONDON.includes(postCode)) {
     answer = "Delivery is free of charge";
   } else {
