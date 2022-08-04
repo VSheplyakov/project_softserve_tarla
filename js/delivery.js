@@ -11,5 +11,5 @@ function delivery(){
   } else {
     answer = "Opps";
   }
-  document.getElementById("delivery_answer").innerHTML = answer;
+  document.querySelector(".header_text").innerHTML = answer;
 }
