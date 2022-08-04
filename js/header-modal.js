@@ -12,6 +12,8 @@ function showText () {
  }
  document.querySelector(".header_text").innerHTML = headerText;
 }
-window.addEventListener('resize', showText)
+window.addEventListener('resize', showText);
+
+
 
 
