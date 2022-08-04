@@ -25,14 +25,14 @@
   <header class="header">
     <div id="myModal" class="modal">
     <div class="check_delivery">
-      <p class="header_text">
+      <p class="header_text" >
         We're focusing on London to start with, please enter your post code
         here to see if you're within our delivery zone!
       </p>
-      
+      <div id="delivery_answer">12332323232</div>
       <div class="header_ubtn">
-        <input class="input" type="text" placeholder="Post code" />
-        <a href="#" class="login_btn btn">Check</a>
+        <input class="input" id="input_d" type="text" placeholder="Post code"/>
+        <a href="#" class="login_btn btn" onclick="delivery()">Check</a>
       </div>
       <span class="closex" onclick="hide()">&times;</span>
     </div>
@@ -325,7 +325,7 @@
   </footer>
   <!--Valeriy end block-->
   <!-- <script src="./js/example.js"></script> -->
-  
+  <script src="js/delivery.js"></script>
   <script src="js/hamburger.js"></script>
   <script src="js/first-caroucel.js"></script>
   <script src="js/header-modal.js"></script>
