@@ -13,65 +13,63 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform:translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 @keyframes animateOne {
-  0%{
+  0% {
     opacity: 0;
     fill: #ffffff;
   }
-  100%{
+  100% {
     opacity: 1;
-    fill:rgba(0,0,0,0.9);
+    fill: rgba(0, 0, 0, 0.9);
   }
 }
 
 @keyframes animateTwo {
-  0%{
+  0% {
     opacity: 0;
     fill: #ffffff;
   }
-  100%{
+  100% {
     opacity: 1;
-    fill:rgba(0,0,0,0.74);
+    fill: rgba(0, 0, 0, 0.74);
   }
 }
 
 @keyframes animateThree {
-  0%{
+  0% {
     opacity: 0;
     fill: #ffffff;
   }
-  50%{
+  50% {
     opacity: 0.5;
     fill: #ffffff;
   }
-  100%{
+  100% {
     opacity: 1;
-    fill:rgba(0,0,0,0.5);
+    fill: rgba(0, 0, 0, 0.5);
   }
 }
 
 @keyframes animateFour {
-  0%{
+  0% {
     opacity: 0;
     fill: #ffffff;
   }
-  100%{
+  100% {
     opacity: 0;
-    fill:rgba(0,0,0,0.34);
+    fill: rgba(0, 0, 0, 0.34);
   }
 }
 
 #Vector {
   animation: animateOne -0.5s linear 0.8s infinite alternate;
-
 }
 
 #Vector-2 {
   animation: animateTwo 0.8s linear 0.8s infinite alternate;
-
 }
 
 #Vector-3 {
@@ -81,4 +79,3 @@
 #Vector-4 {
   animation: animateFour 0.8s linear 1s infinite alternate;
 }
-
