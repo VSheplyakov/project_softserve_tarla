@@ -6,10 +6,12 @@ function delivery(){
   let SOUTHLONDON = ["SE1", "SE3", "SE5", "SE9", "SE10", "SE16", "SE18", "SE19", "SE24", "SW4", "SW8", "SW12", "SW15", "SW16", "SW18", "SW19"];
   let answer;
   let postCode = document.getElementById("input_d").value.toUpperCase();
-  if (CENTRALLONDON.includes(postCode)) {
+  if (!CENTRALLONDON.includes(postCode) && !EASTLONDON.includes(postCode) && !WESTLONDON.includes(postCode) && !NORTHLONDON.includes(postCode) && !SOUTHLONDON.includes(postCode)) {
+    answer = "Your Post code is incorrect";
+  } else if (CENTRALLONDON.includes(postCode)) {
     answer = "Delivery is free of charge";
   } else {
-    answer = "Opps";
+    answer = "Delivery costs";
   }
   document.querySelector(".header_text").innerHTML = answer;
 }
