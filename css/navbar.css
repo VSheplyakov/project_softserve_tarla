@@ -1,9 +1,9 @@
-navbar{
+/* navbar{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
 background-color: #f5ede7;
-}
+} */
 
 li{
   list-style: none;
@@ -54,7 +54,7 @@ a.nav-link{
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #f5ede7;
+  background-color: black;
 }
 
 @media(max-width:768px){
