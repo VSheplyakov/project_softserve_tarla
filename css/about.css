@@ -21,6 +21,7 @@
   border: 1px solid #000000;
   border-radius: 20px;
   padding: 25px;
+  cursor: pointer;
 }
 .about__block-image {
   width: 100%;
@@ -34,8 +35,10 @@
   text-align: center;
   color: #000000;
   margin: 20px 0;
+  /* cursor: pointer; */
 }
-.anout__block-text {
+.about__block-text {
+  display: none;
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
@@ -43,4 +46,7 @@
   line-height: 28px;
   text-align: center;
   color: #000000;
+}
+.about__block-items.active .about__block-text {
+  display: block;
 }
