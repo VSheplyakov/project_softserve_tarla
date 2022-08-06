@@ -26,10 +26,10 @@
     renderCarousel();
   }
 
-  const btnForward = document.querySelector('.fcarousel .forwardp');
+  const btnForward = document.querySelector('.forwardp');
   btnForward.addEventListener('click', nextSlide);
 
-  const btnBack = document.querySelector('.fcarousel .backp');
+  const btnBack = document.querySelector('.backp');
   btnBack.addEventListener('click', prevSlide);
 
   window.addEventListener('resize', renderCarousel);
