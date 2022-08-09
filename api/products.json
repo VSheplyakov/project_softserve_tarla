@@ -1,0 +1,44 @@
+[
+  {
+      "id": "1",
+      "title": "All-Butter Croissant",
+      "image": "images/shop/Croissant_1.png",
+      "description": "All-Butter Croissant, Kit of 6",
+      "price": 12
+  },
+  {
+      "id": "2",
+      "title": "Almond Croissant",
+      "image": "images/shop/almond_croissant.png",
+      "description": "Almond Croissant, Kit of 6",
+      "price": 13
+  },
+  {
+      "id": "3",
+      "title": "Raspberry Danish",
+      "image": "images/shop/raspberry_danish.png",
+      "description": "Raspberry Danish, Kit of 6",
+      "price": 13.5
+  },
+  {
+      "id": "4",
+      "title": "Pain Aux Raisins",
+      "image": "images/shop/psin_raisins.png",
+      "description": "Pain Aux Raisins, Kit of 6",
+      "price": 12
+  },
+  {
+    "id": "5",
+    "title": "Apricot Danish",
+    "image": "images/shop/apricot_danish.png",
+    "description": "Apricot Danish, Kit of 6",
+    "price": 12
+},
+{
+  "id": "6",
+  "title": "Pain Aux Chocolat",
+  "image": "images/shop/pain_chocolat.png",
+  "description": "Pain Aux Chocolat, Kit of 6",
+  "price": 12
+}
+]
