@@ -21,7 +21,7 @@
   border: 1px solid #000000;
   border-radius: 20px;
   padding: 25px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .about__block-image {
   width: 100%;
@@ -46,7 +46,23 @@
   line-height: 28px;
   text-align: center;
   color: #000000;
+  cursor: pointer;
 }
-.about__block-items.active .about__block-text {
+.about__accordion-items.active .about__block-text {
   display: block;
+}
+
+.about__block-arrow {
+  display: block;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+.about__accordion-items.active .about__block-arrow {
+  display: none;
 }
