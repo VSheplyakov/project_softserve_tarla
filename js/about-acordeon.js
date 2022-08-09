@@ -1,4 +1,4 @@
-const accordion = document.querySelectorAll('.about__block-items');
+const accordion = document.querySelectorAll('.about__accordion-items');
 
 
 for(item of accordion) {
