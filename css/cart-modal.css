@@ -1,0 +1,42 @@
+.cart_block{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-color: hsla(0, 0%, 0%, 0.9);
+  
+}
+.cart-items {
+  display:flex;
+  background-color: white;
+  width: 350px;
+  height: 500px;
+
+}
+
+
+.cart-close {
+  display: block;
+  color: white;
+  padding-right: 150px;
+  float: right;
+  font-size: 56px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cart-close:hover {
+  color: gray;
+  
+}
+.cart-items-block{
+display: flex;
+justify-content: center;
+align-items: center;
+}
