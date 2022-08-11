@@ -1,12 +1,12 @@
 class ProductList {
   constructor() {
       this.container = document.querySelector('.products-container');
-      this.ProductsService = new ProductsService();
+      this.productsService = new ProductsService();
       this.renderProducts();
   }
   async renderProducts() {
       let productListDomString = '';
-      const products = await this.ProductsService.getProducts();
+      const products = await this.productsService.getProducts();
       products.forEach(product => {
           productListDomString += this.createProductDomString(product);
       });
