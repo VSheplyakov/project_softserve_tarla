@@ -19,7 +19,7 @@ class ProductList {
     return `<div class="shop_item">
             <img src="images/shop/${product.image}" alt="${product.title}" class="shop_img">
             <h3 class="item_name">${product.title} <br> Croissant</h3>
-            <span class="kit">Kit of 6 ${product.price}</span>
+            <span class="kit">Kit of 6 - $ ${product.price}</span>
             <button class="shop_btn btn">Add to cart</button>
     </div>`;
   }
